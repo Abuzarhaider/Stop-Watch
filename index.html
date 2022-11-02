@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./image/icon.png">
+    <title>Stopwatch</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- image -->
+        <div class="image">
+            <img src="./image/image.jpg" alt="Clock illustration">
+        </div>
+
+        <!-- Stopwatch -->
+        <div class="stopwatch">
+            <p class="clock">00:00:00</p>
+            <div>
+                <button class="disable" onclick="startCounter()">Start</button>
+                <button onclick="stopCounter()">Stop</button>
+                <button class="reset" onclick="resetCounter()">Reset</button>
+                <button class="lap" onclick="lap()">Lap</button>
+            </div>
+        </div>
+
+        <!-- Show lap time -->
+        <div class="lapDiv">
+
+        </div>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
